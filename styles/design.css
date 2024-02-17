@@ -350,7 +350,7 @@ input[type="email"] {
     background: #070211;
 }
 
-.footer-address{
+.footer-address {
     justify-content: space-between;
     color: #fdfcfc;
     display: flex;
@@ -358,23 +358,26 @@ input[type="email"] {
     padding-top: 50px;
 
 }
-.address{
+
+.address {
     padding-top: 80px;
     margin-left: 50px;
     padding-right: 100px;
 }
 
-.contact-container{
+.contact-container {
     margin-top: 100px;
-    
+
 }
-.contact{
+
+.contact {
     margin-right: 100px;
     display: flex;
     margin-left: 50px;
     padding-right: 50px;
 }
-.website{
+
+.website {
     margin-right: 100px;
     display: flex;
     /* margin-bottom: 20px;
@@ -387,22 +390,25 @@ input[type="email"] {
 }
 
 
-.social-media{
+.social-media {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.horizon{
+
+.horizon {
     width: 80%;
-    border: none; /* Remove default border */
+    border: none;
+    /* Remove default border */
     border-top: 2px solid rgba(204, 184, 184, 0.384);
 }
-.social-media img{
+
+.social-media img {
     padding: 20px;
 }
 
-.Unsubscribe{
+.Unsubscribe {
     color: #e4f1f4;
     display: flex;
     justify-content: space-between;
@@ -412,12 +418,12 @@ input[type="email"] {
     margin-top: 50px;
 }
 
-.un-title{
+.un-title {
     margin-left: 50px;
     padding-left: 50px;
 }
 
-.btn-secondary{
+.btn-secondary {
 
     color: white;
     background-color: rgb(31, 1, 41);
@@ -432,3 +438,60 @@ input[type="email"] {
 }
 
 
+/* bonus part started here */
+.circle img {
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+}
+
+.circle {
+    margin-left: 140px;
+    margin-right: 50px;
+    width: 260px;
+    height: 260px;
+    background: transparent;
+    border-radius: 50%;
+    border: 10px solid rgb(233, 18, 86);
+}
+
+.bouns-container {
+    display: flex;
+    margin: 100px;
+
+}
+
+.bouns-start {
+    margin-left: 50px;
+}
+
+.bouns-start h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+
+}
+.bouns-start h4{
+    font-size: 20px;
+    color: #da1414;
+
+}
+.bouns-start p{
+    margin-top: 15px;
+    font-size: 12px;
+    color: #070211;
+}
+.bouns-greet{
+    padding-left: 50px;
+    margin-right: none;
+}
+.bouns-greet h1{
+    margin: 0;
+    padding: 0;
+    color: #da1414;
+    font-size: 50px;
+}
+.bouns-greet p{
+    font-size: 12px;
+    margin-bottom: 18px;
+}
