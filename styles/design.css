@@ -57,6 +57,7 @@
     width: 1320px;
     height: 600px;
     background-image: url(../images/Banner\ Image.png);
+
 }
 
 .head-title {
@@ -465,33 +466,131 @@ input[type="email"] {
     margin-left: 50px;
 }
 
-.bouns-start h1{
+.bouns-start h1 {
     margin: 0;
     padding: 0;
     font-size: 50px;
 
 }
-.bouns-start h4{
+
+.bouns-start h4 {
     font-size: 20px;
     color: #da1414;
 
 }
-.bouns-start p{
+
+.bouns-start p {
     margin-top: 15px;
     font-size: 12px;
     color: #070211;
 }
-.bouns-greet{
+
+.bouns-greet {
     padding-left: 50px;
     margin-right: none;
 }
-.bouns-greet h1{
+
+.bouns-greet h1 {
     margin: 0;
     padding: 0;
     color: #da1414;
     font-size: 50px;
 }
-.bouns-greet p{
+
+.bouns-greet p {
     font-size: 12px;
     margin-bottom: 18px;
+}
+
+/* optional part satrt here */
+.Optional-part-conatiner {
+    /* display: inline-block; */
+}
+
+.first-sale {
+    align-items: center;
+}
+
+.first-sale h5 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+}
+
+.first-sale h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+
+.first-sale p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 2px;
+}
+
+.img-layer1 {
+    margin-top: 150px;
+    width: 50%;
+    display: flex;
+}
+
+.image-red {
+    width: 500px;
+    height: 550px;
+    display: flex;
+    margin-left: 860px;
+    margin-right: 100px;
+
+}
+
+
+
+.image-sale {
+    margin-right: 200px;
+    position: absolute;
+    margin-left: 700px;
+}
+
+.redline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 100px;
+
+}
+
+.box{
+    margin-right: 400px;
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    margin-bottom: 350px;
+
+}
+
+.function{
+    color: #e5168f;
+    font-size: 20px;
+}
+
+.holi{
+    color: #da1414;
+    font-size: 40px;
+}
+
+.fif{
+    color: #070211;
+    margin: 10px;
+}
+
+.holi-des{
+    color: #2f021c;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
